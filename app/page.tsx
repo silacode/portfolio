@@ -24,7 +24,7 @@ export default function Home() {
         </div>
 
         {/* Name */}
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2 text-center md:text-left">
+        <h1 className="text-lg md:text-2xl font-bold text-gray-900 mb-2 text-center md:text-left">
           Siladitya Samaddar
         </h1>
 
