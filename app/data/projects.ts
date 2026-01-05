@@ -1,5 +1,22 @@
 export const projects = [
   {
+    title: "Customer Support Agent",
+    description:
+      "A CLI-based customer support agent powered by OpenAI with SQL database and RAG tools. Features order management, product lookup, and policy search using a reflection agent pattern with generator and reviewer agents for accurate SQL queries. Built with ReAct prompting, ChromaDB for semantic policy search, and robust error handling.",
+    year: "2025",
+    imageSrc: "/customer-support.png",
+    githubLink: "https://github.com/silacode/customer-support-agent",
+  },
+  {
+    title: "ReAct Agent",
+    description:
+      "A minimal implementation of an AI agent using the ReAct (Reasoning + Acting) pattern with prompt-based tool calling. Demonstrates prompt-based tool definitions, multi-tool handling, and intelligent tool reasoning for independent and dependent queries. Built for educational purposes to understand agent fundamentals before using higher-level SDKs.",
+    year: "2025",
+    imageSrc: "/AGENT.jpg",
+    githubLink: "https://github.com/silacode/agent",
+  },
+
+  {
     title: "Agentic Trading Floor",
     description:
       "Built a multi-agent trading system where four LLM-powered agents analyze live marketdata, execute trades, and rebalance portfolios in real time. Powered by MCP-based tool integration for seamless orchestration across market, account, and notification services, with a live dashboard for strategy insights.",
@@ -7,11 +24,12 @@ export const projects = [
     imageSrc: "/project1.jpg", // Optional
     imageAlt: "Project 1",
     githubLink: "https://github.com/silacode/AgenticTradingFloor", // Optional
-    websiteLink: "https://project1.example.com", // Optional
+    //websiteLink: "https://project1.example.com", // Optional
   },
   {
     title: "Autonomous Engineering Team",
-    description: "Developed a dynamic multi-agent system where AI agents (Team Lead, Backend, Frontend, and Test Engineer) collaborate to plan, assign, and solve engineering tasks autonomously. Built with CrewAI to model emergent teamwork, adaptive task generation, and end-to-end problem solving.",
+    description:
+      "Developed a dynamic multi-agent system where AI agents (Team Lead, Backend, Frontend, and Test Engineer) collaborate to plan, assign, and solve engineering tasks autonomously. Built with CrewAI to model emergent teamwork, adaptive task generation, and end-to-end problem solving.",
     year: "2025",
     // imageSrc: "/project2.jpg",
     githubLink: "https://github.com/silacode/AgenticEngineer",
