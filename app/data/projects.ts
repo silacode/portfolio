@@ -12,7 +12,7 @@ export const projects = [
     description:
       "A minimal implementation of an AI agent using the ReAct (Reasoning + Acting) pattern with prompt-based tool calling. Demonstrates prompt-based tool definitions, multi-tool handling, and intelligent tool reasoning for independent and dependent queries. Built for educational purposes to understand agent fundamentals before using higher-level SDKs.",
     year: "2025",
-    imageSrc: "/AGENT.jpg",
+    imageSrc: "/AGENT.png",
     githubLink: "https://github.com/silacode/agent",
   },
 
