@@ -3,7 +3,7 @@ export const projects = [
     title: "Customer Support Agent",
     description:
       "A CLI-based customer support agent powered by OpenAI with SQL database and RAG tools. Features order management, product lookup, and policy search using a reflection agent pattern with generator and reviewer agents for accurate SQL queries. Built with ReAct prompting, ChromaDB for semantic policy search, and robust error handling.",
-    year: "2025",
+    year: "2026",
     imageSrc: "/customer-support.png",
     githubLink: "https://github.com/silacode/customer-support-agent",
   },
